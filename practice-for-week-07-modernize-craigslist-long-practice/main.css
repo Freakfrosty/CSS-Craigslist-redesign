@@ -1,0 +1,139 @@
+.homepage #catAbb,
+.homepage #go,
+.homepage .leftlinks #cl_app_beta,
+.no-js,
+p.more {
+  display: none;
+}
+
+#logo {
+  font-size: 2.5rem;
+}
+
+.homepage-search .querybox {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 2px solid #464646;
+  font-size: 16px;
+}
+
+.menu.collapsible > li {
+  cursor: pointer;
+}
+
+.menu.collapsible > li.expand.s ul {
+  display: block;
+}
+
+.menu.collapsible > li ul {
+  display: none;
+}
+
+/* Your code here */
+* {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  background-color: whitesmoke;
+  color: #464646;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0%;
+}
+
+ul > li {
+  list-style: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: purple;
+  font-weight: bold;
+}
+
+span > a:hover {
+  font-weight: bold;
+  color: purple;
+}
+
+.page-container {
+  max-width: 1200px;
+}
+
+#leftbar {
+  float: left;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+  width: 25%;
+}
+
+#center {
+  float: left;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+  width: 50%;
+  border: 1px solid #464646;
+  border-radius: 10px;
+}
+
+#rightbar {
+  float: left;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+  width: 25%;
+}
+
+footer {
+ clear: both
+}
+
+#center > div {
+  float: left;
+  width: 33%;
+}
+
+#topban h2 {
+  text-align: center;
+}
+
+footer .clfooter{
+  text-align: center;
+  border-top: 1px solid gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.clfooter > li {
+display: inline;
+padding: 5px;
+}
+
+h4.ban::before {
+ /* content: url(https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-Responsive-Design/attributes/assets/peace-symbol-emoji.png); */
+ background-image: url(https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-Responsive-Design/attributes/assets/peace-symbol-emoji.png);
+ background-size: 1em;
+ background-repeat: no-repeat;
+ display: inline-block;
+ width: 1em;
+ height: 1em;
+ content: " ";
+ padding-right: 5px;
+}
