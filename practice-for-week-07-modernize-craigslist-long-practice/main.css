@@ -127,7 +127,6 @@ padding: 5px;
 }
 
 h4.ban::before {
- /* content: url(https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-Responsive-Design/attributes/assets/peace-symbol-emoji.png); */
  background-image: url(https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-Responsive-Design/attributes/assets/peace-symbol-emoji.png);
  background-size: 1em;
  background-repeat: no-repeat;
